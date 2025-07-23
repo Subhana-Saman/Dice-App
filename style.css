@@ -1,0 +1,32 @@
+body{
+    
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column; 
+}
+
+h1{
+font-size: 60px;
+
+}
+
+div{
+    font-size: 90px;
+}
+
+button{
+    width: 200px;
+    height: 55px;
+    margin: 30px;
+    font-size: 30px;
+    border-radius: 10px;
+   background-color: rgb(45, 141, 58);
+}
+
+@media (max-width:425px){
+    h1{
+        font-size: 40px;
+        
+    }
+}
